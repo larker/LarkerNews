@@ -1,0 +1,766 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EB1C6095195C39F000BE0284 /* LKNewsViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EB1C6093195C39F000BE0284 /* LKNewsViewCell.m */; };
+		EB1C6096195C39F000BE0284 /* LKNewsViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EB1C6094195C39F000BE0284 /* LKNewsViewCell.xib */; };
+		EB1C6098195C3DC600BE0284 /* normal.png in Resources */ = {isa = PBXBuildFile; fileRef = EB1C6097195C3DC600BE0284 /* normal.png */; };
+		EB1C609C195C476800BE0284 /* LKUserChannelView.m in Sources */ = {isa = PBXBuildFile; fileRef = EB1C609B195C476800BE0284 /* LKUserChannelView.m */; };
+		EBD1007119594488005E9D79 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EBD1007019594488005E9D79 /* Foundation.framework */; };
+		EBD1007319594488005E9D79 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EBD1007219594488005E9D79 /* CoreGraphics.framework */; };
+		EBD1007519594488005E9D79 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EBD1007419594488005E9D79 /* UIKit.framework */; };
+		EBD1007B19594488005E9D79 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EBD1007919594488005E9D79 /* InfoPlist.strings */; };
+		EBD1007D19594488005E9D79 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EBD1007C19594488005E9D79 /* main.m */; };
+		EBD1008119594488005E9D79 /* LKAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EBD1008019594488005E9D79 /* LKAppDelegate.m */; };
+		EBD1008419594488005E9D79 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EBD1008219594488005E9D79 /* Main.storyboard */; };
+		EBD1008719594488005E9D79 /* LKViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EBD1008619594488005E9D79 /* LKViewController.m */; };
+		EBD1008919594488005E9D79 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EBD1008819594488005E9D79 /* Images.xcassets */; };
+		EBD1009019594488005E9D79 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EBD1008F19594488005E9D79 /* XCTest.framework */; };
+		EBD1009119594488005E9D79 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EBD1007019594488005E9D79 /* Foundation.framework */; };
+		EBD1009219594488005E9D79 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EBD1007419594488005E9D79 /* UIKit.framework */; };
+		EBD1009A19594488005E9D79 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EBD1009819594488005E9D79 /* InfoPlist.strings */; };
+		EBD1009C19594488005E9D79 /* larkernewsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EBD1009B19594488005E9D79 /* larkernewsTests.m */; };
+		EBD100D419594BC6005E9D79 /* LKRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EBD100D319594BC6005E9D79 /* LKRootViewController.m */; };
+		EBD100D719594BF5005E9D79 /* LKLeftViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EBD100D619594BF5005E9D79 /* LKLeftViewController.m */; };
+		EBD100DA19594C04005E9D79 /* LKRightViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EBD100D919594C04005E9D79 /* LKRightViewController.m */; };
+		EBD100DF19595068005E9D79 /* LKNewsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EBD100DE19595068005E9D79 /* LKNewsViewController.m */; };
+		EBD100E21959508F005E9D79 /* LKPicNewsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EBD100E11959508F005E9D79 /* LKPicNewsViewController.m */; };
+		EBD100E8195950F6005E9D79 /* LKVideoNewsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EBD100E7195950F6005E9D79 /* LKVideoNewsViewController.m */; };
+		EBD1013519595737005E9D79 /* MenuHrizontal.m in Sources */ = {isa = PBXBuildFile; fileRef = EBD1011819595737005E9D79 /* MenuHrizontal.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		EBD1013619595737005E9D79 /* CircleView.m in Sources */ = {isa = PBXBuildFile; fileRef = EBD1011B19595737005E9D79 /* CircleView.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		EBD1013719595737005E9D79 /* EGORefreshTableHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = EBD1011D19595737005E9D79 /* EGORefreshTableHeaderView.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		EBD1013819595737005E9D79 /* AccelerationAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = EBD1012019595737005E9D79 /* AccelerationAnimation.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		EBD1013919595737005E9D79 /* Evaluate.m in Sources */ = {isa = PBXBuildFile; fileRef = EBD1012219595737005E9D79 /* Evaluate.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		EBD1013A19595737005E9D79 /* REBackgroundView.m in Sources */ = {isa = PBXBuildFile; fileRef = EBD1012419595737005E9D79 /* REBackgroundView.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		EBD1013B19595737005E9D79 /* RESideMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = EBD1012619595737005E9D79 /* RESideMenu.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		EBD1013C19595737005E9D79 /* RESideMenuCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EBD1012819595737005E9D79 /* RESideMenuCell.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		EBD1013D19595737005E9D79 /* RESideMenuItem.m in Sources */ = {isa = PBXBuildFile; fileRef = EBD1012A19595737005E9D79 /* RESideMenuItem.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		EBD1013E19595737005E9D79 /* UIWindow+RESideMenuExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = EBD1012C19595737005E9D79 /* UIWindow+RESideMenuExtensions.m */; };
+		EBD1014019595737005E9D79 /* SGFocusImageFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = EBD1013219595737005E9D79 /* SGFocusImageFrame.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		EBD1014119595737005E9D79 /* SGFocusImageItem.m in Sources */ = {isa = PBXBuildFile; fileRef = EBD1013419595737005E9D79 /* SGFocusImageItem.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		EBD101441959592A005E9D79 /* LKNewsListView.m in Sources */ = {isa = PBXBuildFile; fileRef = EBD101431959592A005E9D79 /* LKNewsListView.m */; };
+		EBD1015619595D7B005E9D79 /* CustomTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = EBD1015019595D7B005E9D79 /* CustomTableView.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		EBD1015719595D7B005E9D79 /* LoadMoreCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EBD1015219595D7B005E9D79 /* LoadMoreCell.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		EBD1015819595D7B005E9D79 /* LoadMoreCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EBD1015319595D7B005E9D79 /* LoadMoreCell.xib */; };
+		EBD1015919595D7B005E9D79 /* ScrollPageView.m in Sources */ = {isa = PBXBuildFile; fileRef = EBD1015519595D7B005E9D79 /* ScrollPageView.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		EBD1015F19595E1F005E9D79 /* LKPicNewsViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EBD1015E19595E1F005E9D79 /* LKPicNewsViewCell.m */; };
+		EBD1016219595E32005E9D79 /* LKVideoNewsViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EBD1016119595E32005E9D79 /* LKVideoNewsViewCell.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EBD1009319594488005E9D79 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EBD1006519594488005E9D79 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EBD1006C19594488005E9D79;
+			remoteInfo = larkernews;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EB1C6092195C39F000BE0284 /* LKNewsViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LKNewsViewCell.h; sourceTree = "<group>"; };
+		EB1C6093195C39F000BE0284 /* LKNewsViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LKNewsViewCell.m; sourceTree = "<group>"; };
+		EB1C6094195C39F000BE0284 /* LKNewsViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LKNewsViewCell.xib; sourceTree = "<group>"; };
+		EB1C6097195C3DC600BE0284 /* normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = normal.png; sourceTree = "<group>"; };
+		EB1C609A195C476800BE0284 /* LKUserChannelView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LKUserChannelView.h; sourceTree = "<group>"; };
+		EB1C609B195C476800BE0284 /* LKUserChannelView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LKUserChannelView.m; sourceTree = "<group>"; };
+		EBD1006D19594488005E9D79 /* larkernews.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = larkernews.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBD1007019594488005E9D79 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		EBD1007219594488005E9D79 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		EBD1007419594488005E9D79 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		EBD1007819594488005E9D79 /* larkernews-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "larkernews-Info.plist"; sourceTree = "<group>"; };
+		EBD1007A19594488005E9D79 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EBD1007C19594488005E9D79 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EBD1007E19594488005E9D79 /* larkernews-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "larkernews-Prefix.pch"; sourceTree = "<group>"; };
+		EBD1007F19594488005E9D79 /* LKAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LKAppDelegate.h; sourceTree = "<group>"; };
+		EBD1008019594488005E9D79 /* LKAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LKAppDelegate.m; sourceTree = "<group>"; };
+		EBD1008319594488005E9D79 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EBD1008519594488005E9D79 /* LKViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LKViewController.h; sourceTree = "<group>"; };
+		EBD1008619594488005E9D79 /* LKViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LKViewController.m; sourceTree = "<group>"; };
+		EBD1008819594488005E9D79 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		EBD1008E19594488005E9D79 /* larkernewsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = larkernewsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBD1008F19594488005E9D79 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		EBD1009719594488005E9D79 /* larkernewsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "larkernewsTests-Info.plist"; sourceTree = "<group>"; };
+		EBD1009919594488005E9D79 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EBD1009B19594488005E9D79 /* larkernewsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = larkernewsTests.m; sourceTree = "<group>"; };
+		EBD100D219594BC6005E9D79 /* LKRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LKRootViewController.h; sourceTree = "<group>"; };
+		EBD100D319594BC6005E9D79 /* LKRootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LKRootViewController.m; sourceTree = "<group>"; };
+		EBD100D519594BF5005E9D79 /* LKLeftViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LKLeftViewController.h; sourceTree = "<group>"; };
+		EBD100D619594BF5005E9D79 /* LKLeftViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LKLeftViewController.m; sourceTree = "<group>"; };
+		EBD100D819594C04005E9D79 /* LKRightViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LKRightViewController.h; sourceTree = "<group>"; };
+		EBD100D919594C04005E9D79 /* LKRightViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LKRightViewController.m; sourceTree = "<group>"; };
+		EBD100DB19594D30005E9D79 /* Macros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Macros.h; sourceTree = "<group>"; };
+		EBD100DD19595068005E9D79 /* LKNewsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LKNewsViewController.h; sourceTree = "<group>"; };
+		EBD100DE19595068005E9D79 /* LKNewsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LKNewsViewController.m; sourceTree = "<group>"; };
+		EBD100E01959508F005E9D79 /* LKPicNewsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LKPicNewsViewController.h; sourceTree = "<group>"; };
+		EBD100E11959508F005E9D79 /* LKPicNewsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LKPicNewsViewController.m; sourceTree = "<group>"; };
+		EBD100E6195950F6005E9D79 /* LKVideoNewsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LKVideoNewsViewController.h; sourceTree = "<group>"; };
+		EBD100E7195950F6005E9D79 /* LKVideoNewsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LKVideoNewsViewController.m; sourceTree = "<group>"; };
+		EBD1011719595737005E9D79 /* MenuHrizontal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuHrizontal.h; sourceTree = "<group>"; };
+		EBD1011819595737005E9D79 /* MenuHrizontal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuHrizontal.m; sourceTree = "<group>"; };
+		EBD1011A19595737005E9D79 /* CircleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CircleView.h; sourceTree = "<group>"; };
+		EBD1011B19595737005E9D79 /* CircleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CircleView.m; sourceTree = "<group>"; };
+		EBD1011C19595737005E9D79 /* EGORefreshTableHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EGORefreshTableHeaderView.h; sourceTree = "<group>"; };
+		EBD1011D19595737005E9D79 /* EGORefreshTableHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EGORefreshTableHeaderView.m; sourceTree = "<group>"; };
+		EBD1011F19595737005E9D79 /* AccelerationAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AccelerationAnimation.h; sourceTree = "<group>"; };
+		EBD1012019595737005E9D79 /* AccelerationAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AccelerationAnimation.m; sourceTree = "<group>"; };
+		EBD1012119595737005E9D79 /* Evaluate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Evaluate.h; sourceTree = "<group>"; };
+		EBD1012219595737005E9D79 /* Evaluate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Evaluate.m; sourceTree = "<group>"; };
+		EBD1012319595737005E9D79 /* REBackgroundView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = REBackgroundView.h; sourceTree = "<group>"; };
+		EBD1012419595737005E9D79 /* REBackgroundView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = REBackgroundView.m; sourceTree = "<group>"; };
+		EBD1012519595737005E9D79 /* RESideMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RESideMenu.h; sourceTree = "<group>"; };
+		EBD1012619595737005E9D79 /* RESideMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RESideMenu.m; sourceTree = "<group>"; };
+		EBD1012719595737005E9D79 /* RESideMenuCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RESideMenuCell.h; sourceTree = "<group>"; };
+		EBD1012819595737005E9D79 /* RESideMenuCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RESideMenuCell.m; sourceTree = "<group>"; };
+		EBD1012919595737005E9D79 /* RESideMenuItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RESideMenuItem.h; sourceTree = "<group>"; };
+		EBD1012A19595737005E9D79 /* RESideMenuItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RESideMenuItem.m; sourceTree = "<group>"; };
+		EBD1012B19595737005E9D79 /* UIWindow+RESideMenuExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIWindow+RESideMenuExtensions.h"; sourceTree = "<group>"; };
+		EBD1012C19595737005E9D79 /* UIWindow+RESideMenuExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIWindow+RESideMenuExtensions.m"; sourceTree = "<group>"; };
+		EBD1013119595737005E9D79 /* SGFocusImageFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SGFocusImageFrame.h; sourceTree = "<group>"; };
+		EBD1013219595737005E9D79 /* SGFocusImageFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SGFocusImageFrame.m; sourceTree = "<group>"; };
+		EBD1013319595737005E9D79 /* SGFocusImageItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SGFocusImageItem.h; sourceTree = "<group>"; };
+		EBD1013419595737005E9D79 /* SGFocusImageItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SGFocusImageItem.m; sourceTree = "<group>"; };
+		EBD101421959592A005E9D79 /* LKNewsListView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LKNewsListView.h; sourceTree = "<group>"; };
+		EBD101431959592A005E9D79 /* LKNewsListView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LKNewsListView.m; sourceTree = "<group>"; };
+		EBD1014519595A5F005E9D79 /* UIConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIConfig.h; sourceTree = "<group>"; };
+		EBD1014F19595D7B005E9D79 /* CustomTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomTableView.h; sourceTree = "<group>"; };
+		EBD1015019595D7B005E9D79 /* CustomTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomTableView.m; sourceTree = "<group>"; };
+		EBD1015119595D7B005E9D79 /* LoadMoreCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoadMoreCell.h; sourceTree = "<group>"; };
+		EBD1015219595D7B005E9D79 /* LoadMoreCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoadMoreCell.m; sourceTree = "<group>"; };
+		EBD1015319595D7B005E9D79 /* LoadMoreCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoadMoreCell.xib; sourceTree = "<group>"; };
+		EBD1015419595D7B005E9D79 /* ScrollPageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScrollPageView.h; sourceTree = "<group>"; };
+		EBD1015519595D7B005E9D79 /* ScrollPageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScrollPageView.m; sourceTree = "<group>"; };
+		EBD1015D19595E1F005E9D79 /* LKPicNewsViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LKPicNewsViewCell.h; sourceTree = "<group>"; };
+		EBD1015E19595E1F005E9D79 /* LKPicNewsViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LKPicNewsViewCell.m; sourceTree = "<group>"; };
+		EBD1016019595E32005E9D79 /* LKVideoNewsViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LKVideoNewsViewCell.h; sourceTree = "<group>"; };
+		EBD1016119595E32005E9D79 /* LKVideoNewsViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LKVideoNewsViewCell.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EBD1006A19594488005E9D79 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBD1007319594488005E9D79 /* CoreGraphics.framework in Frameworks */,
+				EBD1007519594488005E9D79 /* UIKit.framework in Frameworks */,
+				EBD1007119594488005E9D79 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBD1008B19594488005E9D79 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBD1009019594488005E9D79 /* XCTest.framework in Frameworks */,
+				EBD1009219594488005E9D79 /* UIKit.framework in Frameworks */,
+				EBD1009119594488005E9D79 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EBD1006419594488005E9D79 = {
+			isa = PBXGroup;
+			children = (
+				EBD1007619594488005E9D79 /* larkernews */,
+				EBD1009519594488005E9D79 /* larkernewsTests */,
+				EBD1006F19594488005E9D79 /* Frameworks */,
+				EBD1006E19594488005E9D79 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EBD1006E19594488005E9D79 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EBD1006D19594488005E9D79 /* larkernews.app */,
+				EBD1008E19594488005E9D79 /* larkernewsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EBD1006F19594488005E9D79 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EBD1007019594488005E9D79 /* Foundation.framework */,
+				EBD1007219594488005E9D79 /* CoreGraphics.framework */,
+				EBD1007419594488005E9D79 /* UIKit.framework */,
+				EBD1008F19594488005E9D79 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EBD1007619594488005E9D79 /* larkernews */ = {
+			isa = PBXGroup;
+			children = (
+				EBD100CE19594B7F005E9D79 /* UI */,
+				EBD100C619594B57005E9D79 /* common */,
+				EBD100C919594B57005E9D79 /* database */,
+				EBD100A519594527005E9D79 /* Resource */,
+				EBD1007F19594488005E9D79 /* LKAppDelegate.h */,
+				EBD1008019594488005E9D79 /* LKAppDelegate.m */,
+				EBD1008219594488005E9D79 /* Main.storyboard */,
+				EBD1008519594488005E9D79 /* LKViewController.h */,
+				EBD1008619594488005E9D79 /* LKViewController.m */,
+				EBD1008819594488005E9D79 /* Images.xcassets */,
+				EBD1007719594488005E9D79 /* Supporting Files */,
+			);
+			path = larkernews;
+			sourceTree = "<group>";
+		};
+		EBD1007719594488005E9D79 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EBD1007819594488005E9D79 /* larkernews-Info.plist */,
+				EBD1007919594488005E9D79 /* InfoPlist.strings */,
+				EBD1007C19594488005E9D79 /* main.m */,
+				EBD1007E19594488005E9D79 /* larkernews-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EBD1009519594488005E9D79 /* larkernewsTests */ = {
+			isa = PBXGroup;
+			children = (
+				EBD1009B19594488005E9D79 /* larkernewsTests.m */,
+				EBD1009619594488005E9D79 /* Supporting Files */,
+			);
+			path = larkernewsTests;
+			sourceTree = "<group>";
+		};
+		EBD1009619594488005E9D79 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EBD1009719594488005E9D79 /* larkernewsTests-Info.plist */,
+				EBD1009819594488005E9D79 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EBD100A519594527005E9D79 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				EBD1011619595737005E9D79 /* MenuHrizontal */,
+				EBD1011919595737005E9D79 /* RefreshTableHeaderView */,
+				EBD1011E19595737005E9D79 /* RESideMenu */,
+				EBD1013019595737005E9D79 /* SGFocusImage */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		EBD100C619594B57005E9D79 /* common */ = {
+			isa = PBXGroup;
+			children = (
+				EBD100C719594B57005E9D79 /* cell */,
+				EBD100C819594B57005E9D79 /* utils */,
+				EBD1014519595A5F005E9D79 /* UIConfig.h */,
+			);
+			path = common;
+			sourceTree = "<group>";
+		};
+		EBD100C719594B57005E9D79 /* cell */ = {
+			isa = PBXGroup;
+			children = (
+				EBD1015D19595E1F005E9D79 /* LKPicNewsViewCell.h */,
+				EBD1015E19595E1F005E9D79 /* LKPicNewsViewCell.m */,
+				EBD1016019595E32005E9D79 /* LKVideoNewsViewCell.h */,
+				EBD1016119595E32005E9D79 /* LKVideoNewsViewCell.m */,
+				EB1C6092195C39F000BE0284 /* LKNewsViewCell.h */,
+				EB1C6093195C39F000BE0284 /* LKNewsViewCell.m */,
+				EB1C6094195C39F000BE0284 /* LKNewsViewCell.xib */,
+			);
+			path = cell;
+			sourceTree = "<group>";
+		};
+		EBD100C819594B57005E9D79 /* utils */ = {
+			isa = PBXGroup;
+			children = (
+				EBD100DB19594D30005E9D79 /* Macros.h */,
+			);
+			path = utils;
+			sourceTree = "<group>";
+		};
+		EBD100C919594B57005E9D79 /* database */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = database;
+			sourceTree = "<group>";
+		};
+		EBD100CE19594B7F005E9D79 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				EBD100E91959564A005E9D79 /* views */,
+				EBD100CF19594B7F005E9D79 /* controller */,
+				EBD100D019594B7F005E9D79 /* images */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		EBD100CF19594B7F005E9D79 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				EBD100DC1959504E005E9D79 /* news */,
+				EBD100D219594BC6005E9D79 /* LKRootViewController.h */,
+				EBD100D319594BC6005E9D79 /* LKRootViewController.m */,
+				EBD100D519594BF5005E9D79 /* LKLeftViewController.h */,
+				EBD100D619594BF5005E9D79 /* LKLeftViewController.m */,
+				EBD100D819594C04005E9D79 /* LKRightViewController.h */,
+				EBD100D919594C04005E9D79 /* LKRightViewController.m */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		EBD100D019594B7F005E9D79 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				EB1C6097195C3DC600BE0284 /* normal.png */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+		EBD100DC1959504E005E9D79 /* news */ = {
+			isa = PBXGroup;
+			children = (
+				EBD100DD19595068005E9D79 /* LKNewsViewController.h */,
+				EBD100DE19595068005E9D79 /* LKNewsViewController.m */,
+				EBD100E01959508F005E9D79 /* LKPicNewsViewController.h */,
+				EBD100E11959508F005E9D79 /* LKPicNewsViewController.m */,
+				EBD100E6195950F6005E9D79 /* LKVideoNewsViewController.h */,
+				EBD100E7195950F6005E9D79 /* LKVideoNewsViewController.m */,
+			);
+			name = news;
+			sourceTree = "<group>";
+		};
+		EBD100E91959564A005E9D79 /* views */ = {
+			isa = PBXGroup;
+			children = (
+				EBD1014E19595D7B005E9D79 /* ScrollPage */,
+				EBD101421959592A005E9D79 /* LKNewsListView.h */,
+				EBD101431959592A005E9D79 /* LKNewsListView.m */,
+				EB1C609A195C476800BE0284 /* LKUserChannelView.h */,
+				EB1C609B195C476800BE0284 /* LKUserChannelView.m */,
+			);
+			path = views;
+			sourceTree = "<group>";
+		};
+		EBD1011619595737005E9D79 /* MenuHrizontal */ = {
+			isa = PBXGroup;
+			children = (
+				EBD1011719595737005E9D79 /* MenuHrizontal.h */,
+				EBD1011819595737005E9D79 /* MenuHrizontal.m */,
+			);
+			path = MenuHrizontal;
+			sourceTree = "<group>";
+		};
+		EBD1011919595737005E9D79 /* RefreshTableHeaderView */ = {
+			isa = PBXGroup;
+			children = (
+				EBD1011A19595737005E9D79 /* CircleView.h */,
+				EBD1011B19595737005E9D79 /* CircleView.m */,
+				EBD1011C19595737005E9D79 /* EGORefreshTableHeaderView.h */,
+				EBD1011D19595737005E9D79 /* EGORefreshTableHeaderView.m */,
+			);
+			path = RefreshTableHeaderView;
+			sourceTree = "<group>";
+		};
+		EBD1011E19595737005E9D79 /* RESideMenu */ = {
+			isa = PBXGroup;
+			children = (
+				EBD1011F19595737005E9D79 /* AccelerationAnimation.h */,
+				EBD1012019595737005E9D79 /* AccelerationAnimation.m */,
+				EBD1012119595737005E9D79 /* Evaluate.h */,
+				EBD1012219595737005E9D79 /* Evaluate.m */,
+				EBD1012319595737005E9D79 /* REBackgroundView.h */,
+				EBD1012419595737005E9D79 /* REBackgroundView.m */,
+				EBD1012519595737005E9D79 /* RESideMenu.h */,
+				EBD1012619595737005E9D79 /* RESideMenu.m */,
+				EBD1012719595737005E9D79 /* RESideMenuCell.h */,
+				EBD1012819595737005E9D79 /* RESideMenuCell.m */,
+				EBD1012919595737005E9D79 /* RESideMenuItem.h */,
+				EBD1012A19595737005E9D79 /* RESideMenuItem.m */,
+				EBD1012B19595737005E9D79 /* UIWindow+RESideMenuExtensions.h */,
+				EBD1012C19595737005E9D79 /* UIWindow+RESideMenuExtensions.m */,
+			);
+			path = RESideMenu;
+			sourceTree = "<group>";
+		};
+		EBD1013019595737005E9D79 /* SGFocusImage */ = {
+			isa = PBXGroup;
+			children = (
+				EBD1013119595737005E9D79 /* SGFocusImageFrame.h */,
+				EBD1013219595737005E9D79 /* SGFocusImageFrame.m */,
+				EBD1013319595737005E9D79 /* SGFocusImageItem.h */,
+				EBD1013419595737005E9D79 /* SGFocusImageItem.m */,
+			);
+			path = SGFocusImage;
+			sourceTree = "<group>";
+		};
+		EBD1014E19595D7B005E9D79 /* ScrollPage */ = {
+			isa = PBXGroup;
+			children = (
+				EBD1014F19595D7B005E9D79 /* CustomTableView.h */,
+				EBD1015019595D7B005E9D79 /* CustomTableView.m */,
+				EBD1015119595D7B005E9D79 /* LoadMoreCell.h */,
+				EBD1015219595D7B005E9D79 /* LoadMoreCell.m */,
+				EBD1015319595D7B005E9D79 /* LoadMoreCell.xib */,
+				EBD1015419595D7B005E9D79 /* ScrollPageView.h */,
+				EBD1015519595D7B005E9D79 /* ScrollPageView.m */,
+			);
+			path = ScrollPage;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EBD1006C19594488005E9D79 /* larkernews */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EBD1009F19594488005E9D79 /* Build configuration list for PBXNativeTarget "larkernews" */;
+			buildPhases = (
+				EBD1006919594488005E9D79 /* Sources */,
+				EBD1006A19594488005E9D79 /* Frameworks */,
+				EBD1006B19594488005E9D79 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = larkernews;
+			productName = larkernews;
+			productReference = EBD1006D19594488005E9D79 /* larkernews.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EBD1008D19594488005E9D79 /* larkernewsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EBD100A219594488005E9D79 /* Build configuration list for PBXNativeTarget "larkernewsTests" */;
+			buildPhases = (
+				EBD1008A19594488005E9D79 /* Sources */,
+				EBD1008B19594488005E9D79 /* Frameworks */,
+				EBD1008C19594488005E9D79 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EBD1009419594488005E9D79 /* PBXTargetDependency */,
+			);
+			name = larkernewsTests;
+			productName = larkernewsTests;
+			productReference = EBD1008E19594488005E9D79 /* larkernewsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EBD1006519594488005E9D79 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = LK;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = larkersos;
+				TargetAttributes = {
+					EBD1008D19594488005E9D79 = {
+						TestTargetID = EBD1006C19594488005E9D79;
+					};
+				};
+			};
+			buildConfigurationList = EBD1006819594488005E9D79 /* Build configuration list for PBXProject "larkernews" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EBD1006419594488005E9D79;
+			productRefGroup = EBD1006E19594488005E9D79 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EBD1006C19594488005E9D79 /* larkernews */,
+				EBD1008D19594488005E9D79 /* larkernewsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EBD1006B19594488005E9D79 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB1C6098195C3DC600BE0284 /* normal.png in Resources */,
+				EBD1015819595D7B005E9D79 /* LoadMoreCell.xib in Resources */,
+				EBD1008919594488005E9D79 /* Images.xcassets in Resources */,
+				EBD1007B19594488005E9D79 /* InfoPlist.strings in Resources */,
+				EBD1008419594488005E9D79 /* Main.storyboard in Resources */,
+				EB1C6096195C39F000BE0284 /* LKNewsViewCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBD1008C19594488005E9D79 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBD1009A19594488005E9D79 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EBD1006919594488005E9D79 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBD1013719595737005E9D79 /* EGORefreshTableHeaderView.m in Sources */,
+				EBD100D419594BC6005E9D79 /* LKRootViewController.m in Sources */,
+				EBD1013819595737005E9D79 /* AccelerationAnimation.m in Sources */,
+				EBD1007D19594488005E9D79 /* main.m in Sources */,
+				EBD1015919595D7B005E9D79 /* ScrollPageView.m in Sources */,
+				EBD1015719595D7B005E9D79 /* LoadMoreCell.m in Sources */,
+				EB1C6095195C39F000BE0284 /* LKNewsViewCell.m in Sources */,
+				EBD1013919595737005E9D79 /* Evaluate.m in Sources */,
+				EBD101441959592A005E9D79 /* LKNewsListView.m in Sources */,
+				EBD1014119595737005E9D79 /* SGFocusImageItem.m in Sources */,
+				EBD1013D19595737005E9D79 /* RESideMenuItem.m in Sources */,
+				EBD1015F19595E1F005E9D79 /* LKPicNewsViewCell.m in Sources */,
+				EBD1013519595737005E9D79 /* MenuHrizontal.m in Sources */,
+				EBD100E8195950F6005E9D79 /* LKVideoNewsViewController.m in Sources */,
+				EBD100DF19595068005E9D79 /* LKNewsViewController.m in Sources */,
+				EBD1013E19595737005E9D79 /* UIWindow+RESideMenuExtensions.m in Sources */,
+				EBD1013B19595737005E9D79 /* RESideMenu.m in Sources */,
+				EBD1008119594488005E9D79 /* LKAppDelegate.m in Sources */,
+				EBD1013C19595737005E9D79 /* RESideMenuCell.m in Sources */,
+				EBD1015619595D7B005E9D79 /* CustomTableView.m in Sources */,
+				EBD1013619595737005E9D79 /* CircleView.m in Sources */,
+				EBD100DA19594C04005E9D79 /* LKRightViewController.m in Sources */,
+				EBD1016219595E32005E9D79 /* LKVideoNewsViewCell.m in Sources */,
+				EBD1013A19595737005E9D79 /* REBackgroundView.m in Sources */,
+				EBD1008719594488005E9D79 /* LKViewController.m in Sources */,
+				EBD1014019595737005E9D79 /* SGFocusImageFrame.m in Sources */,
+				EB1C609C195C476800BE0284 /* LKUserChannelView.m in Sources */,
+				EBD100D719594BF5005E9D79 /* LKLeftViewController.m in Sources */,
+				EBD100E21959508F005E9D79 /* LKPicNewsViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBD1008A19594488005E9D79 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBD1009C19594488005E9D79 /* larkernewsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EBD1009419594488005E9D79 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EBD1006C19594488005E9D79 /* larkernews */;
+			targetProxy = EBD1009319594488005E9D79 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EBD1007919594488005E9D79 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EBD1007A19594488005E9D79 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		EBD1008219594488005E9D79 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EBD1008319594488005E9D79 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EBD1009819594488005E9D79 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EBD1009919594488005E9D79 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EBD1009D19594488005E9D79 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EBD1009E19594488005E9D79 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EBD100A019594488005E9D79 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "larkernews/larkernews-Prefix.pch";
+				INFOPLIST_FILE = "larkernews/larkernews-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		EBD100A119594488005E9D79 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "larkernews/larkernews-Prefix.pch";
+				INFOPLIST_FILE = "larkernews/larkernews-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		EBD100A319594488005E9D79 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/larkernews.app/larkernews";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "larkernews/larkernews-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "larkernewsTests/larkernewsTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		EBD100A419594488005E9D79 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/larkernews.app/larkernews";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "larkernews/larkernews-Prefix.pch";
+				INFOPLIST_FILE = "larkernewsTests/larkernewsTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EBD1006819594488005E9D79 /* Build configuration list for PBXProject "larkernews" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EBD1009D19594488005E9D79 /* Debug */,
+				EBD1009E19594488005E9D79 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EBD1009F19594488005E9D79 /* Build configuration list for PBXNativeTarget "larkernews" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EBD100A019594488005E9D79 /* Debug */,
+				EBD100A119594488005E9D79 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EBD100A219594488005E9D79 /* Build configuration list for PBXNativeTarget "larkernewsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EBD100A319594488005E9D79 /* Debug */,
+				EBD100A419594488005E9D79 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EBD1006519594488005E9D79 /* Project object */;
+}
