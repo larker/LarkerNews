@@ -15,13 +15,14 @@
     self = [super initWithFrame:frame];
     if (self) {
         // Initialization code
-        [self setBackgroundColor:[UIColor greenColor]];
+        [self setBackgroundColor:[UIColor whiteColor]];
         UIButton  *saveChannelButton = [[UIButton alloc] initWithFrame:CGRectMake(200,10,30, 20)];
-        [saveChannelButton setTitle:@"+" forState:UIControlStateNormal];
+        [saveChannelButton setTitle:@"-" forState:UIControlStateNormal];
         [saveChannelButton setTitleColor:[UIColor blueColor] forState:UIControlStateNormal];
         [saveChannelButton setBackgroundColor:[UIColor blackColor]];
         [saveChannelButton addTarget:self action:@selector(doSaveUserChannel:) forControlEvents:UIControlEventTouchUpInside];
         [self addSubview:saveChannelButton];
+        [self setAlpha:0.9]a;
     }
     return self;
 }

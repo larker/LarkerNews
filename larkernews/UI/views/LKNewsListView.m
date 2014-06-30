@@ -35,75 +35,75 @@
     NSArray *vButtonItemArray = @[@{NOMALKEY: @"normal.png",
                                     HEIGHTKEY:@"helight.png",
                                     TITLEKEY:@"头条",
-                                    TITLEWIDTH:[NSNumber numberWithFloat:60]
+                                    TITLEWIDTH:[NSNumber numberWithFloat:CHANNEL_MENU_WIDTH2]
                                     },
                                   @{NOMALKEY: @"normal.png",
                                     HEIGHTKEY:@"helight.png",
                                     TITLEKEY:@"推荐",
-                                    TITLEWIDTH:[NSNumber numberWithFloat:60]
+                                    TITLEWIDTH:[NSNumber numberWithFloat:CHANNEL_MENU_WIDTH2]
                                     },
                                   @{NOMALKEY: @"normal",
                                     HEIGHTKEY:@"helight",
                                     TITLEKEY:@"娱乐",
-                                    TITLEWIDTH:[NSNumber numberWithFloat:60]
+                                    TITLEWIDTH:[NSNumber numberWithFloat:CHANNEL_MENU_WIDTH2]
                                     },
                                   @{NOMALKEY: @"normal",
                                     HEIGHTKEY:@"helight",
                                     TITLEKEY:@"体育",
-                                    TITLEWIDTH:[NSNumber numberWithFloat:60]
+                                    TITLEWIDTH:[NSNumber numberWithFloat:CHANNEL_MENU_WIDTH2]
                                     },
                                   @{NOMALKEY: @"normal",
                                     HEIGHTKEY:@"helight",
                                     TITLEKEY:@"科技",
-                                    TITLEWIDTH:[NSNumber numberWithFloat:60]
+                                    TITLEWIDTH:[NSNumber numberWithFloat:CHANNEL_MENU_WIDTH2]
                                     },
                                   @{NOMALKEY: @"normal",
                                     HEIGHTKEY:@"helight",
                                     TITLEKEY:@"轻松一刻",
-                                    TITLEWIDTH:[NSNumber numberWithFloat:40*2]
+                                    TITLEWIDTH:[NSNumber numberWithFloat:CHANNEL_MENU_WIDTH4]
                                     },
                                   @{NOMALKEY: @"normal",
                                     HEIGHTKEY:@"helight",
                                     TITLEKEY:@"新闻",
-                                    TITLEWIDTH:[NSNumber numberWithFloat:60]
+                                    TITLEWIDTH:[NSNumber numberWithFloat:CHANNEL_MENU_WIDTH2]
                                     },
                                   @{NOMALKEY: @"normal",
                                     HEIGHTKEY:@"helight",
                                     TITLEKEY:@"美女",
-                                    TITLEWIDTH:[NSNumber numberWithFloat:60]
+                                    TITLEWIDTH:[NSNumber numberWithFloat:CHANNEL_MENU_WIDTH2]
                                     },
                                   @{NOMALKEY: @"normal",
                                     HEIGHTKEY:@"helight",
                                     TITLEKEY:@"帅哥",
-                                    TITLEWIDTH:[NSNumber numberWithFloat:60]
+                                    TITLEWIDTH:[NSNumber numberWithFloat:CHANNEL_MENU_WIDTH2]
                                     },
                                   @{NOMALKEY: @"normal",
                                     HEIGHTKEY:@"helight",
                                     TITLEKEY:@"帅哥",
-                                    TITLEWIDTH:[NSNumber numberWithFloat:60]
+                                    TITLEWIDTH:[NSNumber numberWithFloat:CHANNEL_MENU_WIDTH2]
                                     },
                                   @{NOMALKEY: @"normal",
                                     HEIGHTKEY:@"helight",
                                     TITLEKEY:@"帅哥",
-                                    TITLEWIDTH:[NSNumber numberWithFloat:60]
+                                    TITLEWIDTH:[NSNumber numberWithFloat:CHANNEL_MENU_WIDTH2]
                                     },
                                   @{NOMALKEY: @"normal",
                                     HEIGHTKEY:@"helight",
                                     TITLEKEY:@"帅哥",
-                                    TITLEWIDTH:[NSNumber numberWithFloat:60]
+                                    TITLEWIDTH:[NSNumber numberWithFloat:CHANNEL_MENU_WIDTH2]
                                     },
                                   @{NOMALKEY: @"normal",
                                     HEIGHTKEY:@"helight",
                                     TITLEKEY:@"帅哥",
-                                    TITLEWIDTH:[NSNumber numberWithFloat:60]
+                                    TITLEWIDTH:[NSNumber numberWithFloat:CHANNEL_MENU_WIDTH2]
                                     },
                                   ];
     
     if (sosMenuHriZontal == nil) {
-        sosMenuHriZontal = [[MenuHrizontal alloc] initWithFrame:CGRectMake(0, 0, self.frame.size.width-30, CHANNEL_MENU_HEIHT) ButtonItems:vButtonItemArray];
+        sosMenuHriZontal = [[MenuHrizontal alloc] initWithFrame:CGRectMake(0, 0, self.frame.size.width-CHANNEL_SET_WIDTH, CHANNEL_MENU_HEIHT) ButtonItems:vButtonItemArray];
         sosMenuHriZontal.delegate = self;
         
-        sosSetChannelButton = [[UIButton alloc] initWithFrame:CGRectMake(sosMenuHriZontal.layer.frame.size.width,0,30, CHANNEL_MENU_HEIHT)];
+        sosSetChannelButton = [[UIButton alloc] initWithFrame:CGRectMake(sosMenuHriZontal.layer.frame.size.width,0,CHANNEL_SET_WIDTH, CHANNEL_MENU_HEIHT)];
         [sosSetChannelButton setTitle:@"+" forState:UIControlStateNormal];
         [sosSetChannelButton setTitleColor:[UIColor whiteColor] forState:UIControlStateNormal];
         [sosSetChannelButton setBackgroundColor:[UIColor blackColor]];
@@ -132,7 +132,7 @@
 //        [self removeGestureRecognizer:gr];
 //    }
     NSLog(@"打开频道订制页面");
-    LKUserChannelView *userChannelView = [[LKUserChannelView alloc] initWithFrame:CGRectMake(10, 100, 300, 300)];
+    LKUserChannelView *userChannelView = [[LKUserChannelView alloc] initWithFrame:CGRectMake(0, 0, self.frame.size.width, self.frame.size.height-80)];
     [self addSubview:userChannelView];
 }
 

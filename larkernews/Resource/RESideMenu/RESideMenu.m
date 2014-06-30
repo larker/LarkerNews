@@ -38,7 +38,10 @@ const int INTERSTITIAL_STEPS = 99;
 @property (assign, readwrite, nonatomic) CGSize originalSize;
 @property (strong, readonly, nonatomic) REBackgroundView *backgroundView;
 @property (strong, readonly, nonatomic) UIImageView *screenshotView;
+// 边栏是UITableView
 @property (strong, readonly, nonatomic) UITableView *tableView;
+// 边栏是UIView
+@property (strong, readonly, nonatomic) UIView *sideView;
 
 // Array containing menu (which are array of items)
 @property (strong, readwrite, nonatomic) NSMutableArray *menuStack;
@@ -135,7 +138,7 @@ const int INTERSTITIAL_STEPS = 99;
     if (showLeft==YES) {
         [self performSelector:@selector(showLeftAfterDelay) withObject:nil afterDelay:0.1];
     }else{
-        [self performSelector:@selector(showRightAfterDelay ) withObject:nil afterDelay:0.1];
+        [self performSelector:@selector(showRightAfterDelay) withObject:nil afterDelay:0.1];
     }
 }
 
